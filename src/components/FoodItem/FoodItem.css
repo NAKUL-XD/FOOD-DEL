@@ -1,0 +1,101 @@
+.food-item{
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    animation: fadeIn 1s;
+}
+
+.food-item-image{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.food-item-name-rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.food-item-name-rating p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.food-item-name-rating img{
+    width: 70px;
+}
+
+.food-item-description{
+    font-size: 16px;
+    color: #3e873c;
+    margin-bottom: 15px;
+}
+
+.food-item-price{
+    font-size: 20px;
+    font-weight: 500;
+    color: #3c6887;
+    margin-bottom: 15px;
+}
+
+.food-item-image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-item-image {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+
+/* Add Button */
+.add-button {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.add-button:hover {
+    transform: scale(1.1);
+}
+
+/* Counter Buttons */
+.food-item-counter {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 6px 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.food-item-counter img {
+    width: 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.food-item-counter img:hover {
+    transform: scale(1.1);
+}
+
